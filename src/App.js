@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import MatchCard from "./components/MatchCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import matches from "./matchcards.json";
 import "./App.css";
 
@@ -99,8 +98,6 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Just click the dang pictures will ya?</Title>
-
         <h3 className="scoreSummary">{this.state.clickMessage}</h3>
 
         <h3 className="scoreSummary">

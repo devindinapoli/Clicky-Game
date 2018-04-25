@@ -9,7 +9,7 @@
 .card > .img-container {
   overflow: hidden;
   text-align: center;
-  background:black;
+  background: black;
 }
 .card > .img-container > img {
   height: 75%;
